@@ -52,15 +52,24 @@ a {
 }
 
 /* ===header=== */
+
+.header-fix {
+    padding-top: 26px;
+    position: sticky;
+    background: #e6f0ff;
+    top: -26px;
+    z-index: 1;
+}
 .header {
     position: relative;
+    padding-top: 118px;
     max-width: 100%;
     height: 100vh;
     background: #e6f0ff;
 }
 
 .navbar {
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar img {
@@ -99,10 +108,6 @@ a {
     padding-top: 13px;
     padding-bottom: 13px;
     border-radius: 8px;
-}
-
-.hero {
-    margin-top: 139px;
 }
 
 .hero .info {
