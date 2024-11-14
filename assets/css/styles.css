@@ -586,8 +586,19 @@ a {
     margin-top: 18px;
 }
 
-.footer .group-list .group-link .link:has(img) {
+.footer .list-item .social {
     margin-top: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer .social a {
+    transition: ease 0.5s;
+    border-radius: 8px;
+}
+
+.footer .list-item .social a:hover {
+    box-shadow: 5px 5px 10px #d3d3d3, -5px -5px 10px #ededed;
 }
 
 .footer .row {
