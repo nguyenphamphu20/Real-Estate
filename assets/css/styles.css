@@ -62,7 +62,8 @@ a {
 }
 .header {
     position: relative;
-    padding-top: 118px;
+    display: flex;
+    align-items: center;
     max-width: 100%;
     height: calc(100vh - 90px);
     background: #e6f0ff;
@@ -110,18 +111,18 @@ a {
     border-radius: 8px;
 }
 
-.hero .info {
+.header .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.header .sub-title {
     color: #687691;
     font-size: 1.8rem;
     line-height: normal;
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.header .title {
     margin-top: 8px;
     color: var(--primary-color);
     font-size: 6.4rem;
@@ -129,7 +130,7 @@ a {
     line-height: 118.75%;
 }
 
-.hero .desc-title {
+.header .desc-title {
     margin-top: 30px;
     color: #5a6473;
     font-size: 1.8rem;
