@@ -79,7 +79,7 @@ a {
     padding: 12px 0;
 }
 
-.navbar ul {
+.navbar > ul {
     display: flex;
     margin-left: 50px;
 }
@@ -88,7 +88,7 @@ a {
     margin-left: auto;
 }
 
-.navbar ul a {
+.navbar > ul a {
     font-weight: 500;
     font-size: 1.4rem;
     color: #4f5361;
